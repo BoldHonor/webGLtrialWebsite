@@ -24,12 +24,14 @@ var fragmentShaderText =
 '}'
 ].join('\n');
 
-var mesh = new obj_loader.Mesh( "cube.obj" );
+
 
 
 var InitDemo = function () {
 	console.log('This is working');
+	var mesh = new obj_loader.Mesh( "cube.obj" );
 	console.log(mesh.vertices);
+	console.log('4');
 	var canvas = document.getElementById('canvas1');
     var gl = canvas.getContext('webgl');
     console.log('working fine');
