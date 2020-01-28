@@ -29,7 +29,7 @@ var fragmentShaderText =
 
 var InitDemo = function () {
 	console.log('This is working');
-	var mesh = new obj_loader.Mesh( "cube.obj" );
+	var mesh = new obj_loader.Mesh( document.getElementById( 'mesh' ).innerHTML );
 	console.log(mesh.vertices[0]);
 	console.log('4');
 	var canvas = document.getElementById('canvas1');
