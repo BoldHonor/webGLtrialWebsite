@@ -29,7 +29,7 @@ var mesh = new obj_loader.Mesh( "cube.obj" );
 
 var InitDemo = function () {
 	console.log('This is working');
-	console.log(mesh.vertices[0]);
+	console.log(mesh.vertices);
 	var canvas = document.getElementById('canvas1');
     var gl = canvas.getContext('webgl');
     console.log('working fine');
