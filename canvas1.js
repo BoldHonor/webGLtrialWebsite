@@ -25,7 +25,7 @@ var fragmentShaderText =
 ].join('\n');
 
 var mesh = new obj_loader.Mesh( "cube.obj" );
-console.log(mesh.vertices);
+
 
 var InitDemo = function () {
 	console.log('This is working');
